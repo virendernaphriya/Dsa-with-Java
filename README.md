@@ -15,3 +15,17 @@ Practicing Data Structures & Algorithms in Java.
 - Declaring integer variables
 - Adding two numbers
 
+
+# Day 2 - Variables, Data Types, and Input in Java
+
+## Topics Covered
+
+- Variables in Java
+- Data types
+- Taking input using `Scanner`
+- Printing user input
+- Basic arithmetic operations
+- Area calculation
+- Simple interest calculation
+- Temperature conversion
+
