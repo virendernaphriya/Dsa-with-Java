@@ -29,3 +29,17 @@ Practicing Data Structures & Algorithms in Java.
 - Simple interest calculation
 - Temperature conversion
 
+
+# Day 3 - Operators and Type Casting in Java
+
+## Topics Covered
+
+- Arithmetic operators
+- Relational operators
+- Logical operators
+- Assignment operators
+- Increment and decrement operators
+- Type casting
+- Average calculation
+- Percentage calculation
+- Swapping numbers
