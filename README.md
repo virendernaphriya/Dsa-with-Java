@@ -43,3 +43,16 @@ Practicing Data Structures & Algorithms in Java.
 - Average calculation
 - Percentage calculation
 - Swapping numbers
+
+
+# Day 4 - Conditional Statements in Java
+
+## Topics Covered
+
+- `if` statement
+- `if-else` statement
+- `if-else-if` ladder
+- Nested `if`
+- `switch` statement
+- Logical conditions
+- Beginner decision-making problems
