@@ -56,3 +56,10 @@ Practicing Data Structures & Algorithms in Java.
 - `switch` statement
 - Logical conditions
 - Beginner decision-making problems
+
+# Day 5 - Loops in Java
+
+## Topics Covered
+- `for` loop
+- `while` loop
+- `do-while` loop
