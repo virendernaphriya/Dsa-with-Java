@@ -63,3 +63,18 @@ Practicing Data Structures & Algorithms in Java.
 - `for` loop
 - `while` loop
 - `do-while` loop
+
+# Day 6 - Loops Part 2 + Number Problems
+
+## Topics Covered
+
+- Number-based loop problems
+- Digit extraction using `%` and `/`
+- Palindrome number
+- Armstrong number
+- Factorial of a number
+- Prime number
+- Factors and count of factors
+- GCD and LCM
+- Fibonacci series
+- Perfect number
