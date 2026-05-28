@@ -78,3 +78,17 @@ Practicing Data Structures & Algorithms in Java.
 - GCD and LCM
 - Fibonacci series
 - Perfect number
+
+# Day 7 - Pattern Printing + Weekly Revision
+
+## Topics Covered
+
+- Nested loops
+- Row and column logic
+- Square star pattern
+- Increasing star triangle
+- Increasing number triangle
+- Same number triangle
+- Decreasing star triangle
+- Right aligned star triangle
+- Week 1 revision
