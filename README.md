@@ -92,3 +92,19 @@ Practicing Data Structures & Algorithms in Java.
 - Decreasing star triangle
 - Right aligned star triangle
 - Week 1 revision
+
+# Week 2 - Functions
+
+# Day 1 - Function Basics in Java
+
+## Topics Covered
+
+- Function basics
+- Creating functions using `static void`
+- Calling functions from `main()`
+- Functions without parameters
+- Functions with parameters
+- Printing numbers from 1 to N using a function
+- Finding square and cube using functions
+- Printing multiplication table using a function
+- Printing even numbers from 1 to N using a function
