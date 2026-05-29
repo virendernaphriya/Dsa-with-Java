@@ -108,3 +108,19 @@ Practicing Data Structures & Algorithms in Java.
 - Finding square and cube using functions
 - Printing multiplication table using a function
 - Printing even numbers from 1 to N using a function
+
+# Day 2 - Types of Functions and Basic Problems
+
+## Topics Covered
+
+- Functions without parameters and without return type
+- Functions with parameters and without return type
+- Functions with parameters and with return type
+- Using `return` to send values back from a function
+- Storing returned values in variables
+- Arithmetic functions: addition, subtraction, multiplication, and division
+- Finding minimum and maximum using functions
+- Checking even or odd using a function
+- Calculating area of a circle using `Math.PI`
+- Finding factorial using a loop inside a function
+- Finding square of a number using a function
