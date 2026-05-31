@@ -124,3 +124,17 @@ Practicing Data Structures & Algorithms in Java.
 - Calculating area of a circle using `Math.PI`
 - Finding factorial using a loop inside a function
 - Finding square of a number using a function
+
+# Day 3 - Method Overloading and Scope in Java
+
+## Topics Covered
+
+- Method overloading
+- Same method name with different parameter lists
+- Overloading by number of parameters
+- Overloading by data type of parameters
+- Method call matching
+- Local scope
+- Block scope
+- Calculator using functions and `switch`
+- Area and average mini tasks using overloaded functions
