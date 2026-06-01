@@ -138,3 +138,18 @@ Practicing Data Structures & Algorithms in Java.
 - Block scope
 - Calculator using functions and `switch`
 - Area and average mini tasks using overloaded functions
+
+# Day 4 - Prime Numbers and Factors
+
+## Topics Covered
+
+- Prime numbers
+- Basic prime checking using factor count
+- Optimized prime checking using `i * i <= n`
+- Composite numbers
+- Factors of a number
+- Counting factors
+- Printing all factors
+- Sum of factors
+- Perfect number
+- Counting prime numbers in a range
