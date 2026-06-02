@@ -13,12 +13,8 @@ public class LCMUsingGCD {
             int temp = b;
             b = a % b;
             a = temp;
-
-            if (b == 0) {
-                return a;
-            }
         }
-        return -1;
+        return a;
     }
 
     public static void main(String[] args) {

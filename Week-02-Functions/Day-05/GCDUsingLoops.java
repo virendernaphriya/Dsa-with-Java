@@ -16,7 +16,7 @@ public class GCDUsingLoops {
                 return i;
             }
         }
-        return -1;
+        return 1;
     }
 
 
