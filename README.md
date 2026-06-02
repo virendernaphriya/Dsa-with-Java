@@ -153,3 +153,14 @@ Practicing Data Structures & Algorithms in Java.
 - Sum of factors
 - Perfect number
 - Counting prime numbers in a range
+
+# Day 5 - GCD, LCM, and Fraction Simplification
+
+## Topics Covered
+
+- Euclidean algorithm for GCD
+- Handling zero and negative values in GCD
+- Finding LCM using GCD
+- Finding GCD of an array
+- Finding LCM of an array
+- Simplifying fractions using GCD
