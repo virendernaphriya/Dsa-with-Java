@@ -164,3 +164,19 @@ Practicing Data Structures & Algorithms in Java.
 - Finding GCD of an array
 - Finding LCM of an array
 - Simplifying fractions using GCD
+
+# Day 6 - Time Complexity, Optimized Power, and Sieve of Eratosthenes
+
+## Topics Covered
+
+- Time complexity
+- Big O notation
+- Common complexities: `O(1)`, `O(log n)`, `O(n)`, `O(n^2)`
+- Optimized power using divide and conquer
+- Reducing power calculation from `O(n)` to `O(log n)`
+- Sieve of Eratosthenes
+- Finding all prime numbers up to `n`
+- Marking multiples as non-prime
+- Starting sieve marking from `i * i`
+- Counting prime numbers efficiently
+
