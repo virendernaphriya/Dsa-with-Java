@@ -180,3 +180,27 @@ Practicing Data Structures & Algorithms in Java.
 - Starting sieve marking from `i * i`
 - Counting prime numbers efficiently
 
+# Day 7 - Functions Revision
+
+## Topics Covered
+
+- Creating reusable functions
+- Function parameters and return values
+- Method overloading revision
+- Prime number checking
+- Printing factors
+- GCD using functions
+- LCM using GCD
+- Counting prime numbers till N
+- Calculator using functions and `switch`
+- Factorial using function
+- Finding maximum of 3 numbers using function
+
+## Quick Revision Focus
+
+- Keep logic inside functions and call those functions from `main()`.
+- Use `boolean` return type for checks like prime number.
+- Use `int` return type for answers like factorial, GCD, LCM, and maximum.
+- Use method overloading when one operation needs multiple parameter versions.
+- Handle edge cases like `0`, negative numbers, and division by zero.
+
