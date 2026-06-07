@@ -204,3 +204,24 @@ Practicing Data Structures & Algorithms in Java.
 - Use method overloading when one operation needs multiple parameter versions.
 - Handle edge cases like `0`, negative numbers, and division by zero.
 
+# Week 3 - Arrays
+
+# Day 1 - Array Basics in Java
+
+## Topics Covered
+
+- Array declaration and creation
+- Array initialization
+- Default values in arrays
+- Accessing array elements using indexes
+- Updating array elements
+- Using `arr.length`
+- Taking array input using `Scanner`
+- Printing array elements
+- Enhanced `for-each` loop
+- Reverse traversal of an array
+- Sum of array elements
+- Average of array elements
+- Counting positive and negative numbers
+
+
