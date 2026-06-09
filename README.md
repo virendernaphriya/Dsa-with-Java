@@ -224,4 +224,22 @@ Practicing Data Structures & Algorithms in Java.
 - Average of array elements
 - Counting positive and negative numbers
 
+# Day 2 - Array Searching and Min/Max Problems
+
+## Topics Covered
+
+- Finding largest element in an array
+- Finding smallest element in an array
+- Finding second largest element
+- Finding second smallest element
+- Brute force vs optimized traversal
+- Using `Integer.MIN_VALUE`
+- Using `Integer.MAX_VALUE`
+- Finding maximum difference using `max - min`
+- Finding minimum pair difference using nested loops
+- Using `Math.abs()` for absolute difference
+- Checking whether an element exists
+- Linear search
+- Early return when target is found
+
 
