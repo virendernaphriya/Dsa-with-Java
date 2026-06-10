@@ -242,4 +242,21 @@ Practicing Data Structures & Algorithms in Java.
 - Linear search
 - Early return when target is found
 
+# Day 3 - Array Rearrangement Problems
+
+## Topics Covered
+
+- Rotating an array by 1 position
+- Left rotation and right rotation
+- In-place shifting
+- Separating even and odd numbers
+- Two-pointer swapping approach
+- Moving zeroes to the start
+- Understanding stable vs non-stable rearrangement
+- Time complexity `O(n)` and space complexity `O(1)`
+
+## Revision Notes
+
+- Detailed notes: `Week-03-Arrays/Day-03/README.md`
+
 
