@@ -1,24 +1,33 @@
 
 public class DuplicateEl {
-    public static void main(String[] args) {
-        int[] arr = { 2, 4, 3, 5, 3};
-        int[] dup = new int[arr.length];
 
+    static int checkFrequencyCount(int[] arr, int n) {
+        int count = 0;
         for (int i = 0; i < arr.length; i++) {
-            int count = 0;
-            for (int j = 0; j < arr.length; j++) {
-                if (arr[i] == arr[j]) {
-                    count++;
-                }
-            }
-
-            if (count > 1) {
-                dup[i] = arr[i];
+            if (arr[i] == n) {
+                count++;
             }
         }
+        return count;
+    }
+
+    public static void main(String[] args) {
+        int[] arr = { 2, 4, 3, 5, 3 ,4 };
 
         for (int i = 0; i < arr.length; i++) {
-            System.out.println(dup[i]);
+            boolean alreadyChecked=false;
+            for(int k=0; k<i; k++){
+                if(arr[k]==arr[i]){
+                    alreadyChecked=true;
+                    break;
+                }
+            }
+            if(alreadyChecked){
+                continue;
+            }
+            if (checkFrequencyCount(arr, arr[i]) > 1) {
+                System.out.println(arr[i]);
+            }
         }
 
     }
