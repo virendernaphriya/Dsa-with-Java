@@ -255,8 +255,18 @@ Practicing Data Structures & Algorithms in Java.
 - Understanding stable vs non-stable rearrangement
 - Time complexity `O(n)` and space complexity `O(1)`
 
-## Revision Notes
+# Day 3 - Searching
 
-- Detailed notes: `Week-03-Arrays/Day-03/README.md`
+## Problems Covered
+
+1. Linear search in an array.
+2. Find the first occurrence of an element.
+3. Find the last occurrence of an element.
+4. Count the occurrence of a target element.
+5. Find the frequency of each unique element.
+6. Print duplicate elements only once.
+
+
+
 
 
