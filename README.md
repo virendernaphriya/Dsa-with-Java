@@ -255,7 +255,7 @@ Practicing Data Structures & Algorithms in Java.
 - Understanding stable vs non-stable rearrangement
 - Time complexity `O(n)` and space complexity `O(1)`
 
-# Day 3 - Searching
+# Day 4 - Searching
 
 ## Problems Covered
 
@@ -265,6 +265,21 @@ Practicing Data Structures & Algorithms in Java.
 4. Count the occurrence of a target element.
 5. Find the frequency of each unique element.
 6. Print duplicate elements only once.
+
+# Day 5 - Frequency and HashMap
+## Main Concepts Practiced
+
+- Introduction to Hashing
+- HashMap in Java
+- Frequency counting
+- Using `getOrDefault()`
+- Storing key-value pairs
+- Finding maximum frequency
+- Finding minimum frequency
+- Counting distinct elements
+- Detecting duplicates
+- Detecting unique elements
+- Majority element detection
 
 
 
