@@ -281,6 +281,22 @@ Practicing Data Structures & Algorithms in Java.
 - Detecting unique elements
 - Majority element detection
 
+# Day 6 - Prefix Sum
+
+## Topics Covered
+
+- Prefix sum array
+- Running sum of an array
+- In-place cumulative sum
+- Range sum query
+- Optimizing range sum using prefix sum
+- Equilibrium index
+- Comparing left sum and right sum
+- Two sum using brute force
+- Two sum optimization idea using `HashMap`
+- Time complexity comparison: `O(n)`, `O(1)`, and `O(n^2)`
+
+
 
 
 
