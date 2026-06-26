@@ -296,6 +296,21 @@ Practicing Data Structures & Algorithms in Java.
 - Two sum optimization idea using `HashMap`
 - Time complexity comparison: `O(n)`, `O(1)`, and `O(n^2)`
 
+# Day 7 - Arrays Revision
+
+## Topics Covered
+
+- Finding largest and second largest elements
+- Reversing an array using two pointers
+- Left and right rotation by 1
+- Moving zeroes to the end
+- Prefix sum revision
+- Missing number using sum difference
+- Two sum using brute force
+- Frequency counting using `HashMap`
+- Printing unique elements using frequency map
+- Time and space complexity revision
+
 
 
 
