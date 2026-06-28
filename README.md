@@ -311,6 +311,47 @@ Practicing Data Structures & Algorithms in Java.
 - Printing unique elements using frequency map
 - Time and space complexity revision
 
+# Week 4 - Array Problems
+
+# Day 1 - Duplicate Problems
+
+## Topics Covered
+
+- Finding duplicate number using brute force nested loops
+- Returning the first duplicate found
+- Removing duplicates from a sorted array
+- Two-pointer in-place duplicate removal
+- Brute force vs best approach comparison
+- Time complexity `O(n^2)` for nested pair checking
+- Time complexity `O(n)` and space complexity `O(1)` for sorted duplicate removal
+
+## Quick Revision
+
+| Problem | Brute Force | Best According To Current Code |
+| --- | --- | --- |
+| Find duplicate number | Compare every pair using nested loops | Current code uses brute force |
+| Remove duplicates from sorted array | Extra array or repeated checking | Two pointers, in-place |
+
+# Day 2 - Array Rotation By K
+
+## Topics Covered
+
+- Left rotation by `k`
+- Right rotation by `k`
+- Handling `k > n` using `k = k % n`
+- Brute force left rotation using temporary array
+- Reversal algorithm for rotation
+- In-place rotation using `reverseArr`
+- Time complexity `O(n)` for rotation
+- Space complexity comparison: `O(k)` brute force vs `O(1)` reversal
+
+## Quick Revision
+
+| Problem | Brute Force | Best According To Current Code |
+| --- | --- | --- |
+| Left rotate by `k` | Store first `k` elements, shift, place temp at end | Reverse first `k`, reverse remaining, reverse whole array |
+| Right rotate by `k` | Store last `k` elements, shift, place temp at front | Reverse first `n - k`, reverse last `k`, reverse whole array |
+
 
 
 
