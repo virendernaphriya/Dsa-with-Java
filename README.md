@@ -352,6 +352,50 @@ Practicing Data Structures & Algorithms in Java.
 | Left rotate by `k` | Store first `k` elements, shift, place temp at end | Reverse first `k`, reverse remaining, reverse whole array |
 | Right rotate by `k` | Store last `k` elements, shift, place temp at front | Reverse first `n - k`, reverse last `k`, reverse whole array |
 
+# Day 3 - Union and Intersection of Arrays
+
+## Topics Covered
+
+- Union of two sorted arrays
+- Intersection of two sorted arrays
+- Intersection of two unsorted arrays
+- Brute force union using `HashSet`
+- Brute force sorted intersection using visited array
+- Two-pointer approach for sorted arrays
+- HashSet approach for unsorted intersection
+- Preserving duplicate matches in sorted intersection
+- Avoiding duplicate output by removing elements from set
+- Time complexity comparison: `O(n + m)`, `O(n * m)`, and extra space tradeoffs
+
+## Quick Revision
+
+| Problem | Brute Force | Best According To Current Code |
+| --- | --- | --- |
+| Union of two sorted arrays | Add both arrays into `HashSet` | Two pointers on sorted arrays |
+| Intersection of two sorted arrays | Nested loops with visited array | Two pointers on sorted arrays |
+| Intersection of two unsorted arrays | Sort first or nested loops | Use `HashSet` and remove after adding |
+
+# Day 4 - Consecutive Ones and Single Element
+
+## Topics Covered
+
+- Finding maximum consecutive `1`s in a binary array
+- Maintaining current count and maximum count
+- Resetting count when `0` appears
+- Finding the element appearing once
+- XOR operator `^`
+- XOR cancellation property: `a ^ a = 0`
+- XOR identity property: `a ^ 0 = a`
+- Time complexity `O(n)` and space complexity `O(1)`
+- [Day 4 detailed revision notes](Week-04-Arr-Problems/Day-04/README.md)
+
+## Quick Revision
+
+| Problem | Best Approach | Key Point |
+| --- | --- | --- |
+| Maximum consecutive ones | Single traversal with `count` and `maxCount` | Reset `count` on `0` |
+| Find element appearing once | XOR all array elements | Duplicate pairs cancel out |
+
 
 
 
