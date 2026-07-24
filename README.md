@@ -396,6 +396,51 @@ Practicing Data Structures & Algorithms in Java.
 | Maximum consecutive ones | Single traversal with `count` and `maxCount` | Reset `count` on `0` |
 | Find element appearing once | XOR all array elements | Duplicate pairs cancel out |
 
+# Day 5 - Subarray Problems
+
+## Topics Covered
+
+- Printing all subarrays
+- Understanding continuous subarrays
+- Using start index `i` and end index `j`
+- Using third loop `k` to print subarray elements
+- Calculating subarray sum
+- Finding maximum subarray sum using brute force
+- Finding minimum subarray sum using brute force
+- Using `Integer.MIN_VALUE` for maximum initialization
+- Using `Integer.MAX_VALUE` for minimum initialization
+- Time complexity `O(n^3)` for three nested loops
+- [Day 5 detailed revision notes](Week-04-Arr-Problems/Day-05/README.md)
+
+## Quick Revision
+
+| Problem | Best According To Current Code | Key Point |
+| --- | --- | --- |
+| Print all subarrays | Three nested loops | Subarray must be continuous |
+| Maximum subarray sum | Brute force all subarray sums | Track greatest sum |
+| Minimum subarray sum | Brute force all subarray sums | Track smallest sum |
+
+# Day 6 - Longest Subarray With Sum K
+
+## Topics Covered
+
+- Longest subarray with sum `K`
+- Brute force running sum approach
+- Avoiding an extra loop by adding `arr[j]` while expanding the subarray
+- Tracking maximum length using `Math.max`
+- Sliding window / two pointer approach
+- Using `left` and `right` pointers
+- Shrinking the window when `sum > k`
+- Positive integers condition for sliding window
+- Time complexity comparison: `O(n^2)` brute force vs `O(n)` two pointers
+- [Day 6 detailed revision notes](Week-04-Arr-Problems/Day-06/README.md)
+
+## Quick Revision
+
+| Problem | Brute Force | Best According To Current Code |
+| --- | --- | --- |
+| Longest subarray with sum `K` | Try every start and end, keep running sum | Two pointers for positive integers |
+| Window length | `j - i + 1` | `right - left + 1` |
 
 
 
