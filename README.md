@@ -442,6 +442,28 @@ Practicing Data Structures & Algorithms in Java.
 | Longest subarray with sum `K` | Try every start and end, keep running sum | Two pointers for positive integers |
 | Window length | `j - i + 1` | `right - left + 1` |
 
+# Day 7 - Two Sum and Sort 0s, 1s, and 2s
+
+## Topics Covered
+
+- Two Sum problem
+- Returning indexes of two elements whose sum is equal to target `K`
+- Brute force pair checking using nested loops
+- Optimizing Two Sum using `HashMap`
+- Finding the required value using `k - arr[i]`
+- Sorting an array containing only `0`, `1`, and `2`
+- Counting approach for sorting 0s, 1s, and 2s
+- Dutch National Flag algorithm
+- Using `low`, `mid`, and `high` pointers
+- Time complexity comparison: `O(n^2)` brute force vs `O(n)` optimized approaches
+- [Day 7 detailed revision notes](Week-04-Arr-Problems/Day-07/README.md)
+
+## Quick Revision
+
+| Problem | Brute Force / Basic Approach | Best According To Current Code |
+| --- | --- | --- |
+| Two Sum | Check every pair using nested loops | Use `HashMap` to find required value |
+| Sort 0s, 1s, and 2s | Count each value and refill array | Dutch National Flag with `low`, `mid`, and `high` |
 
 
 
