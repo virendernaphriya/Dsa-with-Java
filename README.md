@@ -467,4 +467,31 @@ Practicing Data Structures & Algorithms in Java.
 
 
 
+# Week 5 - Array Problems 2
 
+# Day 1 - Majority Element
+
+## Topics Covered
+
+- Majority element problem
+- Checking if an element appears more than `n / 2` times
+- Brute force frequency counting using nested loops
+- Frequency counting using `HashMap`
+- Using `getOrDefault()` for frequency updates
+- Moore's Voting Algorithm
+- Candidate and counter logic
+- Verifying the final candidate
+- Time complexity comparison: `O(n^2)` brute force vs `O(n)` optimized approaches
+- Kadane's Algorithm
+- Finding maximum subarray sum
+- Resetting running sum when it becomes negative
+- Tracking `start` and `end` indexes for the maximum sum subarray
+- Printing the subarray with maximum sum
+- [Day 1 detailed revision notes](Week-05-Arr-Problem2/Day-01/README.md)
+
+## Quick Revision
+
+| Problem | Brute Force / Basic Approach | Best According To Current Code |
+| --- | --- | --- |
+| Majority Element | Count each element frequency using nested loops | Moore's Voting Algorithm with final verification |
+| Maximum Subarray Sum | Check all subarrays | Kadane's Algorithm with `start` and `end` tracking |

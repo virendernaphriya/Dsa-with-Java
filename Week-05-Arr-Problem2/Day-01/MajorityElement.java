@@ -41,8 +41,45 @@ public class MajorityElement {
         //now the time complexity is O(n) but we are using extra space 
     }
 
+    static int getMajorityElOptimal(int arr[]){
+        //Moor's Voting Algorithm
+        int el=arr[0];
+        int count=0;
+
+        //in this algo we will keep an el and a counter  , increase it if the arr[i]==el , and decrease if not ,and one more thing here that if count becomes zero then we will change our element to the next element
+
+        for(int i=0; i<arr.length-1; i++){
+            if(arr[i]==el){
+                count++;
+            }else{
+                count--;
+            }
+
+            if(count==0){   
+                el=arr[i+1];
+            }
+
+        }
+
+
+        //in some cases the output might be wrong , if there is not any majority el in the array, so we have to verify it
+        
+        int cnt=0;
+        for(int i=0; i<arr.length; i++){
+            if(arr[i]==el){
+                cnt++;
+            }
+        }
+
+        if(cnt>arr.length/2){
+            return el;
+        }
+
+
+        return -1;
+    }
     public static void main(String[] args) {
-        int arr[]= {3,2,3};
-        System.out.println(getMajorityElBetter(arr));
+        int arr[]= {2,2,1,1,1,2,2};
+        System.out.println(getMajorityElOptimal(arr));
     }
 }
