@@ -495,3 +495,26 @@ Practicing Data Structures & Algorithms in Java.
 | --- | --- | --- |
 | Majority Element | Count each element frequency using nested loops | Moore's Voting Algorithm with final verification |
 | Maximum Subarray Sum | Check all subarrays | Kadane's Algorithm with `start` and `end` tracking |
+
+# Day 2 - Stock Buy/Sell and Rearrange Numbers
+
+## Topics Covered
+
+- Buy and sell stock problem
+- Finding maximum profit from one transaction
+- Brute force pair checking for stock profit
+- Optimized stock profit using future maximum selling price
+- Rearranging positive and negative numbers alternately
+- Placing positives at even indexes and negatives at odd indexes
+- Handling unequal positive and negative counts
+- Using `ArrayList` to separate positives and negatives
+- Time complexity comparison: `O(n^2)` brute force vs `O(n)` optimized approaches
+- [Day 2 detailed revision notes](Week-05-Arr-Problem2/Day-02/README.md)
+
+## Quick Revision
+
+| Problem | Brute Force / Basic Approach | Best According To Current Code |
+| --- | --- | --- |
+| Buy and sell stock | Check every buy-sell pair | Scan from right and track future maximum selling price |
+| Rearrange equal positives and negatives | Store positives and negatives separately | Place positives at even indexes and negatives at odd indexes |
+| Rearrange unequal positives and negatives | Separate into two lists | Alternate until one list ends, then append remaining elements |
