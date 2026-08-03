@@ -518,3 +518,27 @@ Practicing Data Structures & Algorithms in Java.
 | Buy and sell stock | Check every buy-sell pair | Scan from right and track future maximum selling price |
 | Rearrange equal positives and negatives | Store positives and negatives separately | Place positives at even indexes and negatives at odd indexes |
 | Rearrange unequal positives and negatives | Separate into two lists | Alternate until one list ends, then append remaining elements |
+
+# Day 3 - Leaders in Array and Next Permutation
+
+## Topics Covered
+
+- Leaders in an array
+- Checking whether all right-side elements are smaller
+- Scanning from right to left
+- Tracking the greatest leader seen so far
+- Next permutation problem
+- Finding the breaking point from the right
+- Handling the last permutation by reversing the array
+- Finding the next greater element on the right side
+- Swapping the breaking point element
+- Reversing the suffix for the optimal solution
+- Time complexity comparison: `O(n log n)` suffix sorting vs `O(n)` suffix reversal
+- [Day 3 detailed revision notes](Week-05-Arr-Problem2/Day-03/README.md)
+
+## Quick Revision
+
+| Problem | Basic Approach | Best According To Current Code |
+| --- | --- | --- |
+| Leaders in an array | Check every right-side element | Scan from right and track the greatest element so far |
+| Next permutation | Swap breaking point and sort suffix | Swap breaking point and reverse suffix |
