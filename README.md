@@ -542,3 +542,23 @@ Practicing Data Structures & Algorithms in Java.
 | --- | --- | --- |
 | Leaders in an array | Check every right-side element | Scan from right and track the greatest element so far |
 | Next permutation | Swap breaking point and sort suffix | Swap breaking point and reverse suffix |
+
+# Day 4 - Longest Consecutive Sequence
+
+## Topics Covered
+
+- Longest consecutive sequence problem
+- Finding consecutive values in an unsorted array
+- Brute force linear search for the next number
+- Sorting-based approach
+- Skipping duplicate values while counting
+- Using `HashSet` for optimal lookup
+- Starting only from sequence heads where `num - 1` is not present
+- Time complexity comparison: `O(n^2)` brute force vs `O(n log n)` sorting vs `O(n)` average using `HashSet`
+- [Day 4 detailed revision notes](Week-05-Arr-Problem2/Day-04/README.md)
+
+## Quick Revision
+
+| Problem | Brute Force / Basic Approach | Best Approach |
+| --- | --- | --- |
+| Longest consecutive sequence | For each element, linearly search for the next number | Use `HashSet` and start only from sequence heads |
