@@ -562,3 +562,42 @@ Practicing Data Structures & Algorithms in Java.
 | Problem | Brute Force / Basic Approach | Best Approach |
 | --- | --- | --- |
 | Longest consecutive sequence | For each element, linearly search for the next number | Use `HashSet` and start only from sequence heads |
+
+# Day 5 - Set Matrix Zero
+
+## Topics Covered
+
+- Set matrix zeroes problem
+- Identifying rows and columns containing zeroes
+- Marking affected rows and columns for later update
+- Avoiding in-place zeroing while scanning
+- Using first row and first column as markers for optimal space
+- Index tracking for matrix traversal
+- [Day 5 detailed revision notes](Week-05-Arr-Problem2/Day-05/README.md)
+
+## Quick Revision
+
+| Problem | Basic Approach | Best Approach |
+| --- | --- | --- |
+| Set matrix zeroes | Store zero rows and columns, or mark cells with `-1` | Use first row and first column as markers |
+
+# Day 6 - Rotate Matrix and Spiral Matrix
+
+## Topics Covered
+
+- Rotate matrix by 90 degrees
+- Brute force rotation using a new matrix
+- Optimal rotation by transposing and reversing each row
+- In-place matrix rotation for square matrices
+- Spiral order traversal of a matrix
+- Boundary pointers: `left`, `right`, `top`, and `bottom`
+- Collecting matrix elements in spiral order
+- Handling rectangular matrix traversal
+- [Day 6 detailed revision notes](Week-05-Arr-Problem2/Day-06/README.md)
+
+## Quick Revision
+
+| Problem | Best Approach |
+| --- | --- |
+| Rotate matrix 90° | Transpose the matrix, then reverse each row |
+| Spiral matrix traversal | Use boundary pointers and shrink edges after each pass |
