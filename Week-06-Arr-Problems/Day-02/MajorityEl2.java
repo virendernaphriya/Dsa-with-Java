@@ -3,27 +3,34 @@ import java.util.HashMap;
 import java.util.List;
 
 public class MajorityEl2 {
-    static List<Integer> majorityEl(int arr[]){
-        int n=arr.length;
-        HashMap<Integer,Integer> map= new HashMap<>();
-        List<Integer> list=new ArrayList<>();
+    static List<Integer> majorityEl(int arr[]) {
+        int n = arr.length;
+        HashMap<Integer, Integer> map = new HashMap<>();
+        List<Integer> list = new ArrayList<>();
 
-        for(int i=0; i<arr.length; i++){
-            map.put(arr[i],map.getOrDefault(arr[i], 0)+1);
-        }
+        for (int i = 0; i < arr.length; i++) {
+            map.put(arr[i], map.getOrDefault(arr[i], 0) + 1);
+            if (map.get(arr[i]) == n / 3 + 1) {
+                list.add(arr[i]);
 
-        for(int k:map.keySet()){
-            if(map.get(k)>n/3){
-                list.add(k);
+            }
+            if(list.size()==2){
+                break;
             }
         }
 
+        // for(int k:map.keySet()){
+        // if(map.get(k)>n/3){
+        // list.add(k);
+        // }
+        // }
+
         return list;
-        
+
     }
 
     public static void main(String[] args) {
-        int arr[]={1,2};
+        int arr[] = { 2, 2 };
         System.out.println(majorityEl(arr));
     }
 }
