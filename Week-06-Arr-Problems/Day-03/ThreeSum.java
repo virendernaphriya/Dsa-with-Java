@@ -4,6 +4,7 @@ import java.util.Collections;
 import java.util.HashMap;
 import java.util.HashSet;
 import java.util.List;
+import java.util.Set;
 
 public class ThreeSum {
     static List<List<Integer>> threeSum(int arr[]) {
@@ -41,7 +42,6 @@ public class ThreeSum {
 
     static List<List<Integer>> threeSumBrute(int arr[]) {
 
-        
         List<List<Integer>> ansList = new ArrayList<>();
         HashSet<List<Integer>> set = new HashSet<>();
         for (int i = 0; i < arr.length; i++) {
@@ -65,8 +65,77 @@ public class ThreeSum {
         return ansList;
     }
 
+    static List<List<Integer>> threeSumBetter(int arr[]) {
+        List<List<Integer>> ansList = new ArrayList<>();
+        Set<List<Integer>> listSet = new HashSet<>();
+
+        for (int i = 0; i < arr.length; i++) {
+            HashSet<Integer> set = new HashSet<>();
+            for (int j = i + 1; j < arr.length; j++) {
+                int third = -(arr[i] + arr[j]);
+                if (set.contains(third)) {
+                    List<Integer> list = new ArrayList<>();
+                    list.add(arr[i]);
+                    list.add(arr[j]);
+                    list.add(third);
+                    Collections.sort(list);
+
+                    listSet.add(list);
+                }
+                set.add(arr[j]);
+            }
+        }
+
+        ansList.addAll(listSet);
+        return ansList;
+    }
+
+    static List<List<Integer>> threeSumOptimal(int arr[]) {
+        List<Integer> list = new ArrayList<>();
+        List<List<Integer>> ansList = new ArrayList<>();
+
+        for (int num : arr) {
+            list.add(num);
+        }
+
+        Collections.sort(list);
+        for (int i = 0; i < arr.length; i++) {
+            if(i>0 && arr[i]==arr[i-1]) continue;
+            int j = i + 1;
+            int k = arr.length - 1;
+
+            while (j < k) {
+                int first = list.get(i);
+                int second = list.get(j);
+                int third = list.get(k);
+                int sum = first + second + third;
+                if (sum > 0) {
+                    k--;
+                } else if (sum < 0) {
+                    j++;
+                } else {
+                    List<Integer> tempList = new ArrayList<>();
+                    tempList.add(first);
+                    tempList.add(second);
+                    tempList.add(third);
+                    ansList.add(tempList);
+                    j++;
+                    k--;
+                    while (j < k && list.get(j) == list.get(j-1)) {
+                        j++;
+                    }
+                    while (j < k && list.get(k) == list.get(k+1)) {
+                        k--;
+                    }
+                }
+            }
+        }
+        return ansList;
+    }
+
     public static void main(String[] args) {
         int arr[] = { -1, 0, 1, 2, -1, -4 };
-        System.out.println(threeSumBrute(arr));
+        System.out.println(threeSumOptimal(arr));
+        System.out.println("Done");
     }
 }
