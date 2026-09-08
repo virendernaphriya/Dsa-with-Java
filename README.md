@@ -601,3 +601,87 @@ Practicing Data Structures & Algorithms in Java.
 | --- | --- |
 | Rotate matrix 90° | Transpose the matrix, then reverse each row |
 | Spiral matrix traversal | Use boundary pointers and shrink edges after each pass |
+
+# Day 7 - Count Subarrays With Sum K
+
+## Topics Covered
+
+- Counting contiguous subarrays with sum `K`
+- Brute force subarray traversal
+- Tracking a running sum for every starting index
+- Prefix sum technique
+- Using a `HashMap` to store prefix sum frequencies
+- Finding matching subarrays using `prefixSum - K`
+- Initializing the map with `0 -> 1` for subarrays starting at index `0`
+- Handling positive, negative, and zero values
+- Time complexity comparison: `O(n^2)` brute force vs `O(n)` prefix sum approach
+- [Day 7 detailed revision notes](Week-05-Arr-Problem2/Day-07/README.md)
+
+## Quick Revision
+
+| Problem | Basic Approach | Best Approach |
+| --- | --- | --- |
+| Count subarrays with sum `K` | Try all subarrays and track their sums | Use prefix sum with a frequency map |
+
+# Week 6 - Array Problems 3
+
+# Day 1 - Pascal Triangle
+
+## Topics Covered
+
+- Finding an element at a given row and column in Pascal Triangle
+- Calculating combinations using `nCr`
+- Printing the `n`th row of Pascal Triangle
+- Generating Pascal Triangle up to `n` rows
+- Calculating values without full factorials
+- Building each row from the previous value
+- Time complexity comparison: `O(n)` for a row vs `O(n^2)` for the complete triangle
+- [Day 1 detailed revision notes](Week-06-Arr-Problems/Day-01/README.md)
+
+## Quick Revision
+
+| Problem | Best Approach |
+| --- | --- |
+| Find an element | Use the combination formula `nCr` |
+| Print a row | Calculate each value from the previous value |
+| Generate the triangle | Generate each row from `1` to `n` |
+
+# Day 2 - Majority Element II
+
+## Topics Covered
+
+- Finding elements that appear more than `n / 3` times
+- Frequency counting with a `HashMap`
+- Moore's Voting Algorithm with two candidates
+- Verifying candidate frequencies after voting
+- Handling zero, one, or two majority elements
+- Time complexity comparison: `O(n)` with `HashMap` vs `O(n)` with `O(1)` voting space
+- [Day 2 detailed revision notes](Week-06-Arr-Problems/Day-02/README.md)
+
+## Quick Revision
+
+| Approach | Time Complexity | Space Complexity |
+| --- | --- | --- |
+| HashMap frequency count | `O(n)` | `O(n)` |
+| Boyer-Moore voting | `O(n)` | `O(1)` |
+
+# Day 3 - 3Sum
+
+## Topics Covered
+
+- Finding unique triplets whose sum is `0`
+- Brute force triplet search
+- Removing duplicate triplets using sorting and `HashSet`
+- Improving the search with a `HashSet`
+- Sorting and using the two-pointer technique
+- Skipping duplicate values in the optimal approach
+- Time complexity comparison: `O(n^3)` brute force vs `O(n^2)` optimized approaches
+- [Day 3 detailed revision notes](Week-06-Arr-Problems/Day-03/README.md)
+
+## Quick Revision
+
+| Approach | Complexity |
+| --- | --- |
+| Brute force | `O(n^3)` |
+| HashSet improvement | `O(n^2)` |
+| Sort and two pointers | `O(n^2)` |
