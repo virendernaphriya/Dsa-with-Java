@@ -100,7 +100,7 @@ public class ThreeSum {
 
         Collections.sort(list);
         for (int i = 0; i < arr.length; i++) {
-            if(i>0 && arr[i]==arr[i-1]) continue;
+            if(i>0 && list.get(i).equals(list.get(i-1))) continue;
             int j = i + 1;
             int k = arr.length - 1;
 
@@ -121,10 +121,10 @@ public class ThreeSum {
                     ansList.add(tempList);
                     j++;
                     k--;
-                    while (j < k && list.get(j) == list.get(j-1)) {
+                    while (j < k && list.get(j).equals(list.get(k+1))) {
                         j++;
                     }
-                    while (j < k && list.get(k) == list.get(k+1)) {
+                    while (j < k && list.get(k).equals(list.get(k+1))) {
                         k--;
                     }
                 }
